@@ -14,6 +14,8 @@ typedef uint32_t vaddr_t;
 #define true  1
 #define false 0
 #define NULL  ((void *) 0)
+#define PAGE_SIZE 4096
+
 /*
 * valueをalignの倍数に切り上げるマクロ
 * https://clang.llvm.org/docs/LanguageExtensions.html#builtin-functions
