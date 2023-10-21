@@ -64,6 +64,7 @@ struct sbiret {
 #define PROC_UNUSED   0
 #define PROC_RUNNABLE 1
 
+/* プロセスの情報をまとめた構造体 */
 struct process {
     int pid;
     int state;
