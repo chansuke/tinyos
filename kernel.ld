@@ -4,6 +4,7 @@ ENTRY(boot)
 SECTIONS {
     /* ベースアドレス */
     . = 0x80200000;
+    __kernel_base = .;
 
     /* 実行可能なコードを格納する */
     .text :{
